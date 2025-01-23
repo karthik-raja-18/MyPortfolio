@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="mylogo.png" class="logo" alt="Personal Logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-text" id="home">
+                <p>CSE STUDENT</p>
+                <h1>Hi, I'm <span>Karthik</span> Raja<br></h1>
+                <!-- From Coimbatore -->
+                
+            </div>
+            <!-- <p style="font-size: 40px;
+margin-top: 20px;">an engineering student!</p> -->
+            <div class="header-image"></div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="me1.jpg" alt="Karthik Raja">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi, I'm Karthik Raja, a passionate Computer Science and Engineering student. I have a strong interest in web and app development, and I'm always eager to learn new technologies. I enjoy working on innovative projects and finding creative solutions to complex problems.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>PROGRAMMING LANGUAGES:</span> Java,C,C++,Python</li>
+                        <li><span>UI/UX:</span> Designing intuitive and user-friendly interfaces for web and mobile applications.</li>
+                        <li><span>WEB DEVELOPMENT:</span> Developing responsive and interactive websites using HTML, CSS, JavaScript</li>
+                        <li><span>TOOLS & TECHNOLOGIES</span> Canva,Wix,GitHub</li>
+                        <li><span>DATABASE MANAGEMENT:</span> Proficient in MySQL, MongoDB</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span >B.E CSE:</span> SRI ESHWAR COLLEGE OF ENGINEERING (2023 - Present)</li>
+                        <li><span >SSLC:   </span> GOVERNMENT HIGHER SECONDARY SCHOOL - VADASITHUR (2019 - 2020)</li>
+                        <li><span >HSC:    </span> GOVERNMENT HIGHER SECONDARY SCHOOL - VADASITHUR (2022 - 2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div id="image-carousel">
+            <div id="image-slide">
+                <img src="cal.jpg" alt="Project 1">
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <p>A simple and efficient calculator for basic mathematical operations, designed with a sleek user interface.</p>
+                    <a href="https://karthik-raja-18.github.io/Calculator/calculator.html" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="image-slide">
+                <img src="adv.jpg" alt="Project 2">
+                <div class="layer">
+                    <h3>ADVERTISEMENT PAGE</h3>
+                    <p>A visually engaging advertisement page showcasing Lamborghini products.</p>
+                    <a href="https://karthik-raja-18.github.io/LamborghiniAdd/lambo.html" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="image-slide">
+                <img src="numbers.png" alt="Project 3">
+                <div class="layer">
+                    <h3>NUMBER GUESSING GAME</h3>
+                    <p>A fun and interactive game where users guess a randomly generated number within a specific range and win the loot.</p>
+                    <a href="https://karthik-raja-18.github.io/NumberGame/game.html" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="image-slide">
+                <img src="work-2.png" alt="Project 4">
+                <div class="layer">
+                    <h3>IMAGE MAPPING</h3>
+                    <p>An interactive tool for creating clickable hotspots on images, ideal for showcasing complex layouts or navigation.</p>
+                    <a href="https://karthik-raja-18.github.io/ImgMapping/" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="image-slide">
+                <img src="work-3.png" alt="Project 5">
+                <div class="layer">
+                    <h3>ID CARD GENERATOR</h3>
+                    <p>A user-friendly application to create and customize professional ID cards with ease.</p>
+                    <a href="id-card-generator.html" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <!-- Updated email with mailto link -->
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:karthikraja.narzo@gmail.com">karthikraja.narzo@gmail.com</a>
+                </p>
+                <!-- Updated phone with tel link -->
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+9361933807">9361933807</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/karthik.raja.?igsh=YWk5ZnczdXRvYjRn"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/k%C3%A3rth%C3%AEk-r%C3%A0j%C3%A1-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/karthik_raja_13?s=09"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="contact-form" action="https://formspree.io/f/mvggvjgy" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea rows="6" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        
+        
+    </div>
+    </div>
+</section>
+<div class="copyright">
+    <p>&copy; 2025 Karthik Raja</p>
+</div>
+
+    <script>
+     function opentab(tabname) {
+            const tablinks = document.querySelectorAll(".tab-links");
+            const tabcontents = document.querySelectorAll(".tab-contents");
+            tablinks.forEach(link => link.classList.remove("active-link"));
+            tabcontents.forEach(content => content.classList.remove("active-tab"));
+            document.querySelector(`.tab-links[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            opentab('Skills');
+        });
+
+        
+    </script>
+
+</body>
+</html>
