@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Raja G | Full Stack Developer Portfolio</title>
+    <!-- Google Fonts: Outfit (headings) and Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <i class="fas fa-terminal logo-icon"></i>
+                <span class="logo-text">Karthik<span>Raja</span></span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text-area">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    Available for Internships & Full-Stack Roles
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Karthik Raja G</span></h1>
+                <h2>Full Stack Developer & CSE Student</h2>
+                <p class="hero-desc">
+                    Specializing in building robust enterprise backends with <strong>Spring Boot</strong> and creating responsive, intuitive frontends with <strong>ReactJS</strong>. Passionate about solving complex problems and deploying scalable cloud solutions.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Let's Connect <i class="fas fa-arrow-right"></i></a>
+                    <a href="my-cv.pdf" download class="btn btn-secondary"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/karthikraja1512/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/karthik-raja-18" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/karthik_raja_13?s=09" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/karthik.raja.?igsh=YWk5ZnczdXRvYjRn" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual-area">
+                <div class="profile-card">
+                    <div class="profile-img-container">
+                        <img src="me1.jpg" alt="Karthik Raja G" onerror="this.src='me2.jpg'">
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-lbl">LeetCode Solved</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">2+</span>
+                            <span class="stat-lbl">Internships</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Who I Am</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <p class="about-text">
+                            I am currently pursuing my B.E. in Computer Science and Engineering at <strong>Sri Eshwar College of Engineering</strong> (2023-2027). With a strong foundation in data structures, algorithms, and agile methodologies, I specialize in full-stack web development.
+                        </p>
+                        <p class="about-text">
+                            My journey is driven by practical problem-solving. Whether developing highly secure RESTful APIs in Spring Boot, configuring cloud architectures, or prototyping engaging client interfaces in React, I focus on writing clean, maintainable, and high-performance code.
+                        </p>
+                        <div class="education-summary-cards">
+                            <div class="edu-card">
+                                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="edu-details">
+                                    <h4>B.E. Computer Science & Engineering</h4>
+                                    <p>Sri Eshwar College of Engineering</p>
+                                    <span class="edu-grade">CGPA: 7.62 (Vth Sem) | 2023 - 2027</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-quick-stats">
+                        <div class="stats-grid">
+                            <div class="grid-stat-card">
+                                <i class="fas fa-code-branch stat-icon"></i>
+                                <h3>Full Stack</h3>
+                                <p>Backend & Frontend</p>
+                            </div>
+                            <div class="grid-stat-card">
+                                <i class="fas fa-shield-halved stat-icon"></i>
+                                <h3>Secure Auth</h3>
+                                <p>JWT & OAuth 2.0</p>
+                            </div>
+                            <div class="grid-stat-card">
+                                <i class="fas fa-robot stat-icon"></i>
+                                <h3>AI APIs</h3>
+                                <p>Gemini Integration</p>
+                            </div>
+                            <div class="grid-stat-card">
+                                <i class="fas fa-database stat-icon"></i>
+                                <h3>Databases</h3>
+                                <p>MySQL & MongoDB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Timeline -->
+        <section id="experience" class="timeline-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Journey</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                </div>
+
+                <div class="timeline-tabs">
+                    <button class="tab-btn active" onclick="switchTimeline('experience-timeline')">
+                        <i class="fas fa-briefcase"></i> Internships
+                    </button>
+                    <button class="tab-btn" onclick="switchTimeline('education-timeline')">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </button>
+                </div>
+
+                <!-- Experience Timeline Container -->
+                <div id="experience-timeline" class="timeline-container active-timeline">
+                    <div class="timeline-track"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025</span>
+                            <h3>Backend Developer Intern</h3>
+                            <h4>Ramp-Ex Technologies</h4>
+                            <p class="timeline-desc">
+                                Acquired hands-on experience in building robust backend services with Spring Boot and designing UI elements in ReactJS. Proficient in RESTful API development, data schemas, and securing applications using Spring Security and JWT.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Spring Boot</span>
+                                <span>ReactJS</span>
+                                <span>REST APIs</span>
+                                <span>Spring Security</span>
+                                <span>JWT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-laptop-code"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025</span>
+                            <h3>Full-Stack Developer Intern</h3>
+                            <h4>Consensus Academy</h4>
+                            <p class="timeline-desc">
+                                Successfully completed a comprehensive internship focused on developing dynamic full-stack web applications. Mastered the MERN stack (MongoDB, Express.js, React, Node.js) and advanced HTML/CSS principles, significantly improving coding capability and agile team alignment.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>MERN Stack</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                                <span>HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Timeline Container -->
+                <div id="education-timeline" class="timeline-container">
+                    <div class="timeline-track"></div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-university"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2027</span>
+                            <h3>B.E. Computer Science and Engineering</h3>
+                            <h4>Sri Eshwar College of Engineering</h4>
+                            <p class="timeline-desc">
+                                Gaining deep insights in core computer science, software engineering, databases, cloud, and agile methodologies. 
+                            </p>
+                            <div class="timeline-score"><strong>Current CGPA:</strong> 7.62 (Vth Semester)</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h3>Higher Secondary Schooling (HSC)</h3>
+                            <h4>Government Higher Secondary School, Vadasithur</h4>
+                            <p class="timeline-desc">Specialized in Computer Science and Mathematics.</p>
+                            <div class="timeline-score"><strong>Percentage:</strong> 94.33%</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2020 - 2021</span>
+                            <h3>Secondary Schooling (SSLC)</h3>
+                            <h4>Government Higher Secondary School, Vadasithur</h4>
+                            <p class="timeline-desc">General school curriculum with excellence in science and math.</p>
+                            <div class="timeline-score"><strong>Percentage:</strong> 80%</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I Do</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Languages -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-terminal"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-java text-orange"></i> Java</span>
+                            <span class="skill-badge"><i class="fas fa-code text-blue"></i> C</span>
+                            <span class="skill-badge"><i class="fas fa-code text-cyan"></i> C++</span>
+                            <span class="skill-badge"><i class="fab fa-python text-yellow"></i> Python</span>
+                            <span class="skill-badge"><i class="fab fa-js text-yellow"></i> JavaScript</span>
+                            <span class="skill-badge"><i class="fab fa-html5 text-orange"></i> HTML</span>
+                            <span class="skill-badge"><i class="fab fa-css3-alt text-blue"></i> CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Frontend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-react text-cyan"></i> ReactJS</span>
+                            <span class="skill-badge"><i class="fab fa-react text-cyan"></i> React Native</span>
+                            <span class="skill-badge"><i class="fas fa-wind text-cyan"></i> Tailwind CSS</span>
+                            <span class="skill-badge"><i class="fab fa-bootstrap text-purple"></i> Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Backend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend & APIs</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fas fa-leaf text-green"></i> Spring Boot</span>
+                            <span class="skill-badge"><i class="fas fa-lock text-yellow"></i> Spring Security</span>
+                            <span class="skill-badge"><i class="fas fa-database text-blue"></i> Hibernate</span>
+                            <span class="skill-badge"><i class="fab fa-node-js text-green"></i> Node.js</span>
+                            <span class="skill-badge"><i class="fab fa-node-js text-green"></i> Express.js</span>
+                            <span class="skill-badge"><i class="fas fa-gears text-indigo"></i> RESTful APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Databases & Cloud -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-cloud-database"></i>
+                            <h3>Databases & Cloud</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-aws text-orange"></i> AWS</span>
+                            <span class="skill-badge"><i class="fas fa-database text-blue"></i> MySQL</span>
+                            <span class="skill-badge"><i class="fas fa-leaf text-green"></i> MongoDB</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: DevOps & Tools -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-toolbox"></i>
+                            <h3>Tools & Deployment</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-git-alt text-orange"></i> Git</span>
+                            <span class="skill-badge"><i class="fab fa-github text-white"></i> GitHub</span>
+                            <span class="skill-badge"><i class="fas fa-rocket text-orange"></i> Postman</span>
+                            <span class="skill-badge"><i class="fab fa-docker text-blue"></i> Docker</span>
+                            <span class="skill-badge"><i class="fas fa-cloud-upload text-cyan"></i> Vercel</span>
+                            <span class="skill-badge"><i class="fas fa-cloud-upload text-indigo"></i> Render</span>
+                            <span class="skill-badge"><i class="fas fa-train text-pink"></i> Railway</span>
+                            <span class="skill-badge"><i class="fas fa-network-wired text-blue"></i> Aiven</span>
+                            <span class="skill-badge"><i class="fas fa-comment-sms text-green"></i> Twilio</span>
+                            <span class="skill-badge"><i class="fas fa-image text-cyan"></i> Cloudinary</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="portfolio" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+
+                <!-- Featured Project Cards (Grid) -->
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Civic Issue Reporting System / CRM -->
+                    <div class="project-featured-card">
+                        <div class="project-banner">
+                            <span class="project-tag">Full Stack + AI</span>
+                            <i class="fas fa-map-location-dot banner-bg-icon"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Civic Issue Reporting System & CRM</h3>
+                            <div class="project-tech-tags">
+                                <span>ReactJS</span>
+                                <span>Vite</span>
+                                <span>Tailwind CSS</span>
+                                <span>Spring Boot</span>
+                                <span>Java 21</span>
+                                <span>MySQL</span>
+                                <span>Google Gemini AI</span>
+                                <span>Twilio</span>
+                            </div>
+                            <p class="project-text-desc">
+                                Built a full-stack platform integrated with <strong>Google Gemini AI</strong> for automated validation and deduplication of civic issues. Features a WhatsApp-based reporting interface for accessibility, secure JWT/OAuth 2.0 auth, and an SLA-driven analytics dashboard to monitor resolution efficiency and system performance.
+                            </p>
+                            <div class="project-footer-links">
+                                <a href="https://github.com/karthik-raja-18/Civic-Issue-Reporting-System" target="_blank" class="project-link-btn">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Second Hand Marketplace -->
+                    <div class="project-featured-card">
+                        <div class="project-banner">
+                            <span class="project-tag">E-Commerce</span>
+                            <i class="fas fa-store banner-bg-icon"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Second-Hand Marketplace</h3>
+                            <div class="project-tech-tags">
+                                <span>Spring Boot</span>
+                                <span>React</span>
+                                <span>JWT</span>
+                                <span>MySQL</span>
+                                <span>Cloudinary</span>
+                            </div>
+                            <p class="project-text-desc">
+                                Designed and developed a secure second-hand marketplace. Features standard RESTful APIs for item listing and search, robust token-based user authentication using JWT, and an intuitive responsive user interface. Utilizes Cloudinary for efficient profile and product image storage.
+                            </p>
+                            <div class="project-footer-links">
+                                <a href="https://github.com/karthik-raja-18/SpringBoot-SHM" target="_blank" class="project-link-btn">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Faculty Evaluation & Feedback -->
+                    <div class="project-featured-card">
+                        <div class="project-banner">
+                            <span class="project-tag">Education Portal</span>
+                            <i class="fas fa-chalkboard-user banner-bg-icon"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Faculty Evaluation & Feedback System</h3>
+                            <div class="project-tech-tags">
+                                <span>Spring Boot</span>
+                                <span>Spring Security</span>
+                                <span>ReactJS</span>
+                                <span>MySQL</span>
+                            </div>
+                            <p class="project-text-desc">
+                                Developed a web system that enables role-based evaluation and anonymous feedback submission for college faculty. Built comprehensive analytics dashboards and automated reporting features, allowing admin heads to track teacher performance trends securely.
+                            </p>
+                            <div class="project-footer-links">
+                                <a href="https://github.com/karthik-raja-18/FES" target="_blank" class="project-link-btn">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Secondary Projects Toggle -->
+                <div class="secondary-projects-container">
+                    <button class="btn btn-secondary-toggle" id="toggleOldProjectsBtn" onclick="toggleSecondaryProjects()">
+                        Show Legacy Frontend Projects <i class="fas fa-chevron-down" id="toggleIcon"></i>
+                    </button>
+
+                    <div id="secondary-projects-grid" class="secondary-projects-grid hidden">
+                        <!-- Card: Calculator -->
+                        <div class="secondary-project-card">
+                            <h4>Calculator</h4>
+                            <p>A simple and efficient calculator for basic mathematical operations, designed with a sleek user interface.</p>
+                            <div class="sec-tags"><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+                            <a href="https://karthik-raja-18.github.io/Calculator/calculator.html" target="_blank" class="sec-link">
+                                Open Demo <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card: Lamborghini Ad -->
+                        <div class="secondary-project-card">
+                            <h4>Lamborghini Page</h4>
+                            <p>A visually engaging advertisement page showcasing Lamborghini products and active styling layouts.</p>
+                            <div class="sec-tags"><span>HTML</span> <span>CSS</span></div>
+                            <a href="https://karthik-raja-18.github.io/LamborghiniAdd/lambo.html" target="_blank" class="sec-link">
+                                Open Demo <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card: Number Guessing Game -->
+                        <div class="secondary-project-card">
+                            <h4>Guessing Game</h4>
+                            <p>A fun and interactive game where users guess a randomly generated number within a specific range.</p>
+                            <div class="sec-tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
+                            <a href="https://karthik-raja-18.github.io/NumberGame/game.html" target="_blank" class="sec-link">
+                                Open Demo <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card: Image Mapping -->
+                        <div class="secondary-project-card">
+                            <h4>Image Mapping Tool</h4>
+                            <p>An interactive tool for creating clickable hotspots on images, ideal for layouts or navigation.</p>
+                            <div class="sec-tags"><span>HTML</span> <span>CSS</span></div>
+                            <a href="https://karthik-raja-18.github.io/ImgMapping/" target="_blank" class="sec-link">
+                                Open Demo <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card: ID Card Generator -->
+                        <div class="secondary-project-card">
+                            <h4>ID Card Generator</h4>
+                            <p>A user-friendly application to create and customize professional ID cards with ease.</p>
+                            <div class="sec-tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
+                            <a href="id-card-generator.html" target="_blank" class="sec-link">
+                                Open Demo <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Learning Path</span>
+                    <h2 class="section-title">Certifications & Courses</h2>
+                </div>
+
+                <div class="certs-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <div class="cert-info">
+                            <h3>Software Engineering and Agile Software Development</h3>
+                            <span class="cert-provider">Infosys Springboard</span>
+                            <span class="cert-date">2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <div class="cert-info">
+                            <h3>Organizational Behaviour: Individual Dynamics in Organization</h3>
+                            <span class="cert-provider">NPTEL</span>
+                            <span class="cert-date">2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <div class="cert-info">
+                            <h3>Data Structure and Algorithms using Java</h3>
+                            <span class="cert-provider">NPTEL</span>
+                            <span class="cert-date">2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                        <div class="cert-info">
+                            <h3>AWS Academy Cloud Foundations</h3>
+                            <span class="cert-provider">AWS Academy</span>
+                            <span class="cert-date">2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                        <div class="cert-info">
+                            <h3>Networking Basics</h3>
+                            <span class="cert-provider">CISCO</span>
+                            <span class="cert-date">2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 6 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="cert-info">
+                            <h3>Learn Java Programming – Beginner to Master</h3>
+                            <span class="cert-provider">Udemy</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 7 -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="cert-info">
+                            <h3>Mastering Data Structures and Algorithms Using C & C++</h3>
+                            <span class="cert-provider">Udemy</span>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-details-panel">
+                        <h3>Let's start a conversation</h3>
+                        <p class="contact-lead-text">
+                            I am open to discussions regarding full-stack internships, backend developer roles, or interesting collaborative projects. Feel free to reach out via email or phone!
+                        </p>
+
+                        <div class="contact-item-group">
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="info-text">
+                                    <span class="info-lbl">Email me</span>
+                                    <a href="mailto:karthikraja.narzo@gmail.com" class="info-val">karthikraja.narzo@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fas fa-phone"></i></div>
+                                <div class="info-text">
+                                    <span class="info-lbl">Call or WhatsApp</span>
+                                    <a href="tel:+919361933807" class="info-val">+91 93619 33807</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="info-text">
+                                    <span class="info-lbl">Location</span>
+                                    <span class="info-val">Coimbatore, Tamil Nadu, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-pills">
+                            <a href="https://www.linkedin.com/in/karthikraja1512/" target="_blank" class="social-pill">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/karthik-raja-18" target="_blank" class="social-pill">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://x.com/karthik_raja_13?s=09" target="_blank" class="social-pill">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel">
+                        <form id="contact-form" action="https://formspree.io/f/mvggvjgy" method="POST">
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <input type="text" id="form-name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Your Message</label>
+                                <textarea id="form-message" rows="5" name="message" placeholder="Hi Karthik, I'd like to discuss a project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Karthik Raja G. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripting for interactive components -->
+    <script>
+        // Tab switching logic for Timeline (Experience vs Education)
+        function switchTimeline(timelineId) {
+            // Get all buttons and containers
+            const buttons = document.querySelectorAll('.timeline-tabs .tab-btn');
+            const timelines = document.querySelectorAll('.timeline-container');
+
+            // Remove active classes
+            buttons.forEach(btn => btn.classList.remove('active'));
+            timelines.forEach(timeline => timeline.classList.remove('active-timeline'));
+
+            // Add active class to clicked button and target container
+            const activeBtn = Array.from(buttons).find(btn => btn.getAttribute('onclick').includes(timelineId));
+            if (activeBtn) activeBtn.classList.add('active');
+            
+            const activeTimeline = document.getElementById(timelineId);
+            if (activeTimeline) activeTimeline.classList.add('active-timeline');
+        }
+
+        // Toggle visibility of legacy projects
+        function toggleSecondaryProjects() {
+            const grid = document.getElementById('secondary-projects-grid');
+            const btn = document.getElementById('toggleOldProjectsBtn');
+            const icon = document.getElementById('toggleIcon');
+
+            if (grid.classList.contains('hidden')) {
+                grid.classList.remove('hidden');
+                icon.className = 'fas fa-chevron-up';
+                btn.innerHTML = 'Hide Legacy Projects <i class="fas fa-chevron-up" id="toggleIcon"></i>';
+            } else {
+                grid.classList.add('hidden');
+                icon.className = 'fas fa-chevron-down';
+                btn.innerHTML = 'Show Legacy Frontend Projects <i class="fas fa-chevron-down" id="toggleIcon"></i>';
+            }
+        }
+
+        // Responsive Hamburger Menu Toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Close mobile menu when nav link is clicked
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Add visual scroll effect to navbar and update active links
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Highlighting active nav link based on scroll position
+            let current = '';
+            const sections = document.querySelectorAll('section, main > section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= (sectionTop - 120)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
